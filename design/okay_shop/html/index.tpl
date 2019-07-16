@@ -89,7 +89,7 @@
                     {/if}
                 </li>
 
-                {*if $OKorders}
+                {if $OKorders}
                     <li class="informer currencies">
                         <div class="fn_switch cur_switch">
                             <span class="informer_name tablet-hidden">всего заказов - {$OKorders} (обработанных - {$OKorder})</span>

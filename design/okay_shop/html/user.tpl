@@ -73,11 +73,11 @@
         </div>
 
         {* Orders history *}
-        <!--div class="col-lg-7">
+        <div class="col-lg-7">
             <b>
-                <p>Всего заказов - {*$OKorders} (из них обработано - {$OKorder*})</p>
+                <p>Всего заказов - {$OKorders} (из них обработано - {$OKorder})</p>
             </b>
-        </div-->
+        </div>
 
         {if $orders}
             <div class="col-lg-7">

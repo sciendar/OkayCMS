@@ -36,17 +36,17 @@
       <file leaf-file-name="index.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/design/okay_shop/html/index.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="187" column="14" selection-start-line="187" selection-start-column="14" selection-end-line="187" selection-end-column="14" />
+            <state relative-caret-position="269">
+              <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.tpl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/design/okay_shop/html/user.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="-94">
+              <caret line="77" column="77" selection-start-line="77" selection-start-column="77" selection-end-line="77" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -78,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserView.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserView.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/UserView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="83" column="23" selection-start-line="74" selection-start-column="10" selection-end-line="83" selection-end-column="23" />
+            <state relative-caret-position="439">
+              <caret line="83" column="17" selection-start-line="74" selection-start-column="8" selection-end-line="83" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -125,11 +125,11 @@
         <option value="$PROJECT_DIR$/api/FrontTranslations.php" />
         <option value="$PROJECT_DIR$/api/Cart.php" />
         <option value="$PROJECT_DIR$/design/okay_shop/lang/ru.php" />
-        <option value="$PROJECT_DIR$/design/okay_shop/html/index.tpl" />
-        <option value="$PROJECT_DIR$/design/okay_shop/html/user.tpl" />
         <option value="$PROJECT_DIR$/design/okay_shop/html/cart.tpl" />
         <option value="$PROJECT_DIR$/design/okay_shop/html/cart_purchases.tpl" />
         <option value="$PROJECT_DIR$/view/UserView.php" />
+        <option value="$PROJECT_DIR$/design/okay_shop/html/index.tpl" />
+        <option value="$PROJECT_DIR$/design/okay_shop/html/user.tpl" />
       </list>
     </option>
   </component>
@@ -271,12 +271,12 @@
       <option name="presentableId" value="Default" />
       <updated>1562846836188</updated>
       <workItem from="1562846837559" duration="3828000" />
-      <workItem from="1562885516694" duration="40940000" />
+      <workItem from="1562885516694" duration="41566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44768000" />
+    <option name="totallyTimeSpent" value="45394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -562,20 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design/okay_shop/html/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="187" column="14" selection-start-line="187" selection-start-column="14" selection-end-line="187" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/okay_shop/html/user.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design/okay_shop/html/cart.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1819">
@@ -600,8 +586,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/UserView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="83" column="23" selection-start-line="74" selection-start-column="10" selection-end-line="83" selection-end-column="23" />
+        <state relative-caret-position="439">
+          <caret line="83" column="17" selection-start-line="74" selection-start-column="8" selection-end-line="83" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/okay_shop/html/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/okay_shop/html/user.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="77" column="77" selection-start-line="77" selection-start-column="77" selection-end-line="77" selection-end-column="77" />
         </state>
       </provider>
     </entry>

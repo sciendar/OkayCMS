@@ -72,16 +72,16 @@ class UserView extends View {
         $this->design->assign('orders', $orders);
 
         /// 1 ///
-//        $OKorders = $this->orders->count_orders(array('user_id'=>$this->user->id));
-//        $OKorder = 0;
-//        foreach ($orders as $order) {
-//            if($order->status_id == 2 or $order->status_id == 3 or $order->status_id == 4) {
-//                $OKorder = $OKorder + 1;
-//            }
-//        }
-//
-//        $this->design->assign('OKorder', $OKorder);
-//        $this->design->assign('OKorders', $OKorders);
+        $OKorders = $this->orders->count_orders(array('user_id'=>$this->user->id));
+        $OKorder = 0;
+        foreach ($orders as $order) {
+            if($order->status_id == 2 or $order->status_id == 3 or $order->status_id == 4) {
+                $OKorder = $OKorder + 1;
+            }
+        }
+
+        $this->design->assign('OKorder', $OKorder);
+        $this->design->assign('OKorders', $OKorders);
 
         /// -1- ///
 
