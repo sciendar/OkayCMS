@@ -1,68 +1,68 @@
 <?php
 //2
-//$dateNow = date("H");
-//
-//function plural($diffTime)
-//{
-//    $mod10  = $diffTime % 10;
-//    $mod100 = $diffTime % 100;
-//
-//    if ($mod10 == 1 && $mod100 != 11) {
-//        $string = $diffTime." час";
-//        return $string;
-//    } elseif (($mod10 > 1 && $mod10 < 5) && ($mod100 < 12 || $mod100 > 14)) {
-//        $string = $diffTime." часа";
-//        return $string;
-//    } elseif ($mod10 == 0 || ($mod10 > 4 && $mod10 < 10) || ($mod100 > 10 && $mod100 < 15)) {
-//        $string = $diffTime." часов";
-//        return $string;
-//    } else {
-//        $string = 'other';
-//        return $string;
-//    }
-//}
-//
-//function operation($dateNow) {
-//    $dateWD = 4;
-//    if($dateWD == "6" || $dateWD == "5") {
-//        $string = "мы откроемся в понедельник, в 9:00";
-//        return $string;
-//    }
-//    elseif($dateWD == "7") {
-//        $diff = 24 + 9 - $dateNow;
-//        $diffTime = plural($diff);
-//        $string = "мы откроемся через ".$diffTime.", в 9:00";
-//        return $string;
-//    }
-//    else {
-//        if(($dateNow > 0 and $dateNow < 9)) {
-//            $diff = 9 - $dateNow;
-//            $diffTime = plural($diff);
-//            $string = "мы откроемся через ".$diffTime.", в 9:00";
-//            return $string;
-//        }
-//        elseif($dateNow > 9 and $dateNow < 18) {
-//            $diff = 18 - $dateNow;
-//            $diffTime = plural($diff);
-//            $string = "мы закроемся через ".$diffTime.", в 18:00";
-//            return $string;
-//        }
-//        else {
-//            $diff = 9 + 24 - $dateNow;
-//            $diffTime = plural($diff);
-//            $string = "мы откроемся через ".$diffTime.", в 9:00";
-//            return $string;
-//        }
-//    }
-//}
-//
-//$string = operation($dateNow);
+$dateNow = date("H");
+
+function plural($diffTime)
+{
+    $mod10  = $diffTime % 10;
+    $mod100 = $diffTime % 100;
+
+    if ($mod10 == 1 && $mod100 != 11) {
+        $string = $diffTime." час";
+        return $string;
+    } elseif (($mod10 > 1 && $mod10 < 5) && ($mod100 < 12 || $mod100 > 14)) {
+        $string = $diffTime." часа";
+        return $string;
+    } elseif ($mod10 == 0 || ($mod10 > 4 && $mod10 < 10) || ($mod100 > 10 && $mod100 < 15)) {
+        $string = $diffTime." часов";
+        return $string;
+    } else {
+        $string = 'other';
+        return $string;
+    }
+}
+
+function operation($dateNow) {
+    $dateWD = 4;
+    if($dateWD == "6" || $dateWD == "5") {
+        $string = "мы откроемся в понедельник, в 9:00";
+        return $string;
+    }
+    elseif($dateWD == "7") {
+        $diff = 24 + 9 - $dateNow;
+        $diffTime = plural($diff);
+        $string = "мы откроемся через ".$diffTime.", в 9:00";
+        return $string;
+    }
+    else {
+        if(($dateNow > 0 and $dateNow < 9)) {
+            $diff = 9 - $dateNow;
+            $diffTime = plural($diff);
+            $string = "мы откроемся через ".$diffTime.", в 9:00";
+            return $string;
+        }
+        elseif($dateNow > 9 and $dateNow < 18) {
+            $diff = 18 - $dateNow;
+            $diffTime = plural($diff);
+            $string = "мы закроемся через ".$diffTime.", в 18:00";
+            return $string;
+        }
+        else {
+            $diff = 9 + 24 - $dateNow;
+            $diffTime = plural($diff);
+            $string = "мы откроемся через ".$diffTime.", в 9:00";
+            return $string;
+        }
+    }
+}
+
+$string = operation($dateNow);
 //end 2
 
 
 
 $lang = array();
-//$lang['string'] = $string;
+$lang['string'] = $string;
 $lang['email_comment_theme'] = "Ответ на отзыв";
 $lang['email_comment_title'] = "Вы оставили комментарий в";
 $lang['email_comment_on_site'] = "на сайте";
