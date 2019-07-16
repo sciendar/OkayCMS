@@ -115,11 +115,11 @@
                 {* Total *}
                 <span data-language="cart_total_price">{$lang->cart_total_price}:</span>
                 <span class="total_sum nowrap">{$cart->total_price|convert} {$currency->sign|escape}</span><br>
-				<!--span data-language="cart_total_price">
-                    {*if $cart->text != ''}
+				<span data-language="cart_total_price">
+                    {if $cart->text != ''}
                         {$cart->text} {$cart->min_price|convert} {$currency->sign|escape}
-                    {/if*}
-                </span-->
+                    {/if}
+                </span>
             </td>			
 
             <td></td>

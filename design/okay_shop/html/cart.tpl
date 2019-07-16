@@ -101,11 +101,11 @@
             {/if}
             <input type="hidden" name="checkout" value="1">
             {* Submit button ?????? *}
-            {*if $cart->text == ''*}
+            {if $cart->text == ''}
                 <input class="button g-recaptcha" type="submit" name="checkout" data-language="cart_checkout" {if $settings->captcha_type == "invisible"}data-sitekey="{$settings->public_recaptcha_invisible}" data-badge='bottomleft' data-callback="onSubmit"{/if} value="{$lang->cart_checkout}">
-			{*else}
+			{else}
                 {$cart->dotext} {$cart->text} {$cart->min_price|convert} {$currency->sign|escape}
-			{/if*}
+			{/if}
         </div>    
     </form>
 
